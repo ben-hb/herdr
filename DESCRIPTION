@@ -1,13 +1,14 @@
 Package: herdr
-Title: What the Package Does (One Line, Title Case)
+Title: Rational and naive social learning simulator 
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Benjamin",
+           family = "Hoffner-Brodsky",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+           email = "benjaminhoffnerbrodsky@gmail.com",
+           comment = c(ORCID = "0000-0002-2513-5441"))
+Description: herdr uses recursive simulations to asymptotically identify the optimal behavior of a bayesian agent who 1.) receives a private signal correlating with the true state of the world 2.) observes the behavior of agents before them and 3.) takes an action correlating with the agent's belief in the state of the world. 
+License: MIT
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1

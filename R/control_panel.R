@@ -2,15 +2,10 @@ remove(list = ls())
 options(mc.cores = parallel::detectCores())
 
 library(usethis)
-
-use_description(fields = list(
-  "Package" = "socialLearning"),
-  check_name = FALSE)
-
 library(roxygen2)
 
-roxygenise()
-
+# roxygenise()
+#
 devtools::load_all()
 
 # Set parameters
